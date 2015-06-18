@@ -8,5 +8,5 @@ import (
 )
 
 func GetHal() halif.SwixHalInterface {
-	return xcat.GetImpl()
+	return linkstreet.GetImpl()
 }
